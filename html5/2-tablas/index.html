@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas básicas</title>
+</head>
+<body>
+    <h1>Nuestra primera tabla</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ullam quod mollitia doloremque qui! Omnis itaque ipsa optio? Veritatis eum reiciendis sapiente ipsa cumque, eius aut quasi voluptas ut voluptate?</p>
+    <table border="1">
+        <!-- border no se suele poner, se utiliza css,
+        en este caso sólo se pone para ver los cambios en las  celdas-->
+        <tr>
+            <th>Nombre</th>
+            <th>Teléfono</th>
+            <th>email</th>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>+34 600600600</td>
+        </tr>
+        <tr>
+            <td>Pepe</td>
+            <td>+34 123 456 789</td>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>+34 12345</td>
+            <td>juan@example.com</td>
+        </tr>
+    </table>
+
+    <h2>Segunda tabla</h2>
+    
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="3">Lista de contactos</th>
+            </tr>
+            <tr>
+                <th>Nombre</th>
+                <th>Teléfono</th>
+                <th>e-mail</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Carlos</td>
+                <td>+ 34 600600600</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Pepe</td>
+                <td>+ 34 123 456 789</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Juan</td>
+                <td>+ 34 12345</td>
+                <td>juan@example.com</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2">Total:</th>
+                <td>3 contactos</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>Tercera tabla</h2>
+
+    <table border="1">
+        <tr>
+            <td colspan="2" rowspan="2">UNO</td>
+            <td colspan="3">DOS</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>31</td>
+            <td>32</td>
+            <td>33</td>
+            <td>34</td>
+        </tr>
+    </table>
+</body>
+</html>

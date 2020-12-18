@@ -1,5 +1,5 @@
 # Curso-HTML5-y-CSS3
-Curso de Desarrollo Web con HTML Y CSS3 realizado en KeepCoding
+Curso de Desarrollo Web con HTML5 Y CSS3 realizado en KeepCoding
 
 **Principales contenidos:**
 
