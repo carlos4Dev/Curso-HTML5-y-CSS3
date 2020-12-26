@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Mi primer formulario</h1>
+    <form action="resultado.html" method="get">
+        <fieldset>
+            <legend>Datos de identificación</legend>
+            <label for="nombre">
+                Nombre
+            </label>
+            <br>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            <label for="apellidos">
+                Apellidos
+            </label>
+            <br>
+            <input type="text" name="apellidos" id="apellidos">
+        </fieldset>
+
+        <br><br>
+
+        <fieldset>
+            <legend>Datos de contacto
+
+            </legend>
+            <label for="email">
+                Correo electrónico
+            </label>
+            <br>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="telefono">
+                Teléfono:
+            </label>
+            <br>
+            <input type="tel" name="telefono" id="telefono">        
+        </fieldset>
+
+        <br><br>
+        
+        <fieldset>
+            <legend>
+                Sobre ti
+            </legend>
+            <label for="color">
+                Cuál es tu color favorito?
+            </label>
+            <br>
+            <select name="color" id="color">
+                <option value="">-- Selecciona un color --</option>
+                <option value="1">Rojo</option>
+                <option value="2">Verde</option>
+                <!--option value="2" selected>Verde</option-->
+                <option value="3">Azul</option>
+            </select>
+            <br>
+            <!--input type="color" name="color" id="color" value="#FF0000"-->
+            <br>
+            <label for="valoracion">Cómo valoras los cursos de KeepCoding</label>
+            <br>
+            <input type="number" name="valoracion" id="valoracion" value="10">
+            <br>
+            <label for="bio">
+                Biografía
+            </label>
+            <br>
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+        </fieldset>
+        <br><br>
+    
+    <input type="submit" value="Enviar formulario">
+    </form>
+</body>
+</html>
