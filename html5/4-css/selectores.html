@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores CSS3</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,700&display=swap');
+
+        body {
+            background-color: #666666 ;
+        }
+        * {
+            font-family: 'Ubuntu',Arial, Helvetica, sans-serif;;
+            font-size: 50px;
+        }
+
+        a {
+            display: block;
+            margin: 10px;
+            background-color: #fff;
+            opacity: .75;
+        }
+
+        .interno {
+            text-decoration: none;
+            font-family: 'Merriweather','Times New Roman', Times, serif ;
+        }
+
+        a[href^="http://"] {
+            color:palegreen;
+            font-weight: bold;
+        }
+
+        a[target^="_b"]{
+            color:red;
+        }
+
+        a[href$=".es"]{
+            color:rgb(255, 255, 255);
+            background-color: rgba(0,0,50, .5);
+        }
+        
+    </style>
+
+</head>
+<body>
+    <a href="pagina.html" class="interno">Interno</a>
+    <br>
+    <a href="http://www.google.es">Externo</a>
+    <br>
+    <a href="#identificador">En página</a>
+    <br>
+    <a href="otro-sitio-html">Interno</a>
+    <br>
+    <a href="http://..." target="_top">Externo</a>
+    <br>
+    <a href="http://..." target="_blank">Externo target blank</a>
+    <br>
+
+</body>
+</html>
