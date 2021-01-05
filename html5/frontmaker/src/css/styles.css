@@ -1,0 +1,27 @@
+* {
+  font-family: 'Cairo', Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: black;
+  color: whitesmoke;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Monda', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+a {
+  color: #d65a31;
+  text-decoration: none;
+}
+
+.logo, .logo span {
+  font-family: 'Gugi', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-transform: uppercase;
+}
+
+.logo span {
+  color: #d65a31;
+}
