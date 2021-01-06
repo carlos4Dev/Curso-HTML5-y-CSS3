@@ -1,0 +1,12 @@
+.descargas {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.descargas > li {
+    display: inline-block;
+    margin: 0 .5rem;
+    line-height: 100px;
+    vertical-align: middle;
+}

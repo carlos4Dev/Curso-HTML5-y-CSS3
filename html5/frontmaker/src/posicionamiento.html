@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamiento</title>
+    <style>
+        div {
+            min-width: 250px;
+            min-height: 150px;
+            border: solid 5px red;
+            margin: 5px;
+            position: static;
+            font-size: 50px;
+            text-align: center;
+            line-height: 150px;
+        }
+
+        .padre {
+
+        }
+
+        .hijo {
+            position: relative;
+        }
+
+        .nieto {
+            position: absolute;
+            background-color: burlywood;
+            left: 40px;
+            right: 40px;
+            border-color: green;
+        }
+        .cuatro{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: cyan;
+            border-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="padre">
+        <div class="hijo">
+            <div class="nieto">1</div>
+        </div>
+    </div>
+
+    <div class="padre">
+        <div class="hijo">
+            <div class="nieto" style="z-index: 1;">2</div>
+        </div>
+    </div>
+
+    <div class="padre">
+        <div class="hijo">
+            <div class="nieto">3</div>
+        </div>
+    </div>
+
+    <div class="padre">
+        <div class="hijo">
+            <div class="nieto cuatro">4</div>
+        </div>
+    </div>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, voluptatem est autem similique commodi praesentium magni quod reprehenderit nobis assumenda debitis distinctio officia cum cupiditate. Tempore natus incidunt similique aliquid.</p>
+<p>Distinctio at reprehenderit veritatis, obcaecati praesentium nisi officiis soluta animi corporis maiores voluptatum quis rerum repudiandae dolor accusantium aspernatur sapiente exercitationem possimus debitis? Perferendis adipisci molestias maiores nesciunt neque assumenda.</p>
+<p>Beatae natus optio quae adipisci, perferendis aliquam, dolore maiores impedit amet quaerat distinctio et ad pariatur nisi tempore blanditiis ea quas non. Sed adipisci neque odit sequi, iste saepe animi.</p>
+<p>Soluta quibusdam delectus reiciendis placeat voluptas cupiditate mollitia obcaecati asperiores eos? Aliquid doloremque reprehenderit ex iusto iste et qui, commodi sint pariatur temporibus aut porro blanditiis, quis voluptates ratione rem.</p>
+<p>Quas provident eius esse magnam reiciendis, cupiditate odit optio quisquam ullam totam autem ex. Sint quisquam ipsam voluptate, neque perferendis necessitatibus nemo laborum quia asperiores mollitia, illo dolor nam facere.</p>
+<p>Impedit quas dolores exercitationem laudantium laborum quidem? Odit in doloribus error voluptate sed, vel reprehenderit deserunt laborum voluptates libero! Id modi ducimus totam dolore, aliquid quidem doloremque ratione ex necessitatibus?</p>
+<p>Totam saepe in natus minus quos, quia dolorum laudantium repellendus fuga dolores voluptatibus eius veritatis, quod aliquid fugiat reiciendis provident necessitatibus porro recusandae! Dolor, ex! Consequuntur atque ea aut laboriosam.</p>
+<p>Doloribus asperiores molestias nobis cupiditate fuga nam tempore iure unde sed in magni repudiandae debitis provident laborum ea dolorum delectus suscipit laboriosam eum dolores, nisi quas illo velit. Nesciunt, temporibus?</p>
+<p>Esse officia deserunt vero minus incidunt, beatae dolorum totam fuga, dolorem sed iusto tenetur tempora saepe aliquid dolores ipsum architecto, numquam at. Voluptate quos facere tenetur, dolor dicta excepturi? Obcaecati?</p>
+<p>Quae repudiandae perspiciatis eius sequi iste optio consequuntur ullam incidunt aliquam eum sit reprehenderit, voluptatibus esse possimus pariatur dolorem dicta eos eligendi nisi et quam vero iusto! Vitae, suscipit facilis.</p>
+</body>
+</html>

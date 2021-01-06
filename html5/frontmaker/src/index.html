@@ -6,29 +6,39 @@
     <title>The Frontender</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Gugi&family=Monda:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/nabvar.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/descargas.css">
+    <link rel="stylesheet" href="./css/forms.css">
 </head>
 <body>
-    <nav>
+    <nav class="navbar">
         <div class="logo">The Front<span>ender</span></div>
-        <ul>
-            <li><a href="#el-juego">El juego</a></li>
-            <li><a href="#descargas">Descargas</a></li>
-            <li><a href="#comunidad">Comunidad</a></li>
-            <li><a href="#galeria">Galería</a></li>
-            <li><a href="#dirty-coders">Dirty coders</a></li>
+        <ul class=navbar-list>
+            <li class="navbar-item"><a href="#el-juego">El juego</a></li>
+            <li class="navbar-item"><a href="#descargas">Descargas</a></li>
+            <li class="navbar-item"><a href="#comunidad">Comunidad</a></li>
+            <li class="navbar-item"><a href="#galeria">Galería</a></li>
+            <li class="navbar-item"><a href="#dirty-coders">Dirty coders</a></li>
         </ul>
     </nav>
-    <header>
-        <h1 class="logo">The Front<span>ender</span></h1>
-        <p>Enfréntante a los bugs</p>
-        <p>
-            Adéntrate en un mundo lleno de píxeles, lintings y protocolos que
-            te acechan tras cada línea de código. ¿Te atreves?
-        </p>
-        <img src="./img/bg.jpg" alt="Imagen de nuestra protagonista">
+
+    <header class="header">
+        <div class="header-overlay"></div>
+        <div class="header-content">
+            <h1 class="logo">The Front<span>ender</span></h1>
+            <p class="tagline">Enfréntante a tus bugs</p>
+            <p class="promo-text">
+                Adéntrate en un mundo lleno de píxeles, lintings y protocolos que
+                te acechan tras cada línea de código. ¿Te atreves?
+            </p>
+        </div>
     </header>
-    <main>
+    
+    <main class="container">
         <section id="el-juego">
             <h1>El juego</h1>
 
@@ -55,7 +65,7 @@
                 páginas... 500 Server Error.
             </p>
 
-            <p>
+            <p class="xl">
                 ¿Quieres asumir el reto?
             </p>
         </section>
@@ -68,20 +78,48 @@
                 por supuesto online. Elige la que más te guste y ¡comienza a jugar!
             </p>
 
-            <ul>
-                <li><a href="#">PC</a></li>
-                <li><a href="#">XBOS</a></li>
-                <li><a href="#">PS4</a></li>
-                <li><a href="#">WEB</a></li>
-                <li><a href="#">PEGI16</a></li>
+            <ul class="descargas">
+                <li><a href="#"><img src="./img/platforms/pc.png" alt="PC"></a></li>
+                <li><a href="#"><img src="./img/platforms/xbox.png" alt="XBOX"></a></li>
+                <li><a href="#"><img src="./img/platforms/ps4.png" alt="PlayStation 4"></IMg></a></li>
+                <li><a href="#"><img src="./img/platforms/www.png" alt="Web"></a></li>
+                <li><a href="#"><img src="./img/platforms/pegi.png" alt="PEGI16"></a></li>
             </ul>
 
         </section>
 
         <section id="comunidad">
             <h1>Comunidad</h1>
-            <p>Crear formulario para suscripción</p>
+            <form action="" id="subscribe">
+                <p>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Quién eres">
+                </p>
 
+                <p>
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" name="email" id="email" placeholder="Tu email (no te haremos SPAM)">
+                </p>
+
+                <p>
+                    <label for="alias">Alias</label>
+                    <input type="text" name="alias" id="alias" placeholder="¿Tienes un alias para el juego">
+                </p>
+
+                <p class="checkbox">
+                    <input type="checkbox" name="boletin" id="boletin">
+                    <label for="boletin">¿Quieres subscribirte a nuestro boletín de novedades?</label>
+                </p>
+
+                <p>
+                    <label for="bio">Sobre ti:</label>
+                    <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Cuéntanos algo"></textarea>
+                </p>
+
+                <p>
+                    <input type="submit" value="Enviar">
+                </p>
+            </form>
         </section>
 
         <section id="galeria">

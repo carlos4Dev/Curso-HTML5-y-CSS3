@@ -2,9 +2,10 @@
   font-family: 'Cairo', Arial, Helvetica, sans-serif;
 }
 
+
 body {
   background-color: black;
-  color: whitesmoke;
+  color: var(--light-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #d65a31;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
@@ -23,5 +24,17 @@ a {
 }
 
 .logo span {
-  color: #d65a31;
+  color: var(--primary-color);
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  padding: 0 1rem;
+}
+
+.xl {
+  font-size: 1.5rem;
 }
