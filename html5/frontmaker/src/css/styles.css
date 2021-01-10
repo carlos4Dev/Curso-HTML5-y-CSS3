@@ -38,3 +38,15 @@ img {
 .xl {
   font-size: 1.5rem;
 }
+
+@media (min-width: 480px) {
+  .container{
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+  }
+  .header-content {
+    max-width: var(--content-max-width);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

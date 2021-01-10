@@ -1,0 +1,115 @@
+body {
+    background: url('../img/bg.jpg') center center no-repeat;
+    background-size: cover;
+    background-color: var(--dark-color);
+}
+
+.wrapper {
+    height: 100vh;
+}
+
+.logo {
+    position: relative;
+    top: 2rem;
+    left: .5rem;
+    font-size: 1.5rem;
+}
+ 
+.tag {
+    position: absolute;
+    background-color: black;
+    width: 11.75rem;
+    height: 7.5rem;
+    z-index: -1;
+    font-weight: bold;
+    padding: 1rem .5rem;
+}
+
+h1 {
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-shadow:black 2px 2px 2px,
+                black -2px -2px 2px,
+                black 2px -2px 2px,
+                black -2px 2px 2px;
+}
+
+.main {
+    padding: 150px 1rem 1rem 1rem;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.countdown {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.countdown .time {
+    background-color: rgba(255,255,255,.2);
+    padding: 1rem;
+}
+
+.countdown .time .number {
+    font-size: 3rem;
+}
+
+.aside-form {
+    padding: 0 1rem;
+}
+
+#subscribe-form {
+    margin: 3rem 0;
+    display: flex;
+}
+
+#subscribe-form .email {
+    margin-right: 1rem;
+    width: 60%;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -3;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.video-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: url('../img/simple-pattern-overlay.png') top left repeat;
+    z-index: -2;
+}
+
+@media (min-width: 480px) {
+    .wrapper {
+        max-width: var(--content-max-width);
+        margin: 0 auto;
+    }
+
+    .countdown {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .header {
+        max-width: var(--content-max-width);
+        position: relative;
+    }
+}

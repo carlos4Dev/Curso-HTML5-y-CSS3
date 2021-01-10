@@ -3,4 +3,7 @@
     --primary-color: #d65a31;
     --dark-color: #000035;
     --light-color: #eeeeee;
+    --bg-footer: #112233;
+
+    --content-max-width: 800px;
 }

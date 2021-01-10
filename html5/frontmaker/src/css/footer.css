@@ -1,0 +1,20 @@
+.footer {
+    background-color: var(--bg-footer);
+    display: flex;
+    flex-direction: column-reverse;
+
+    position: sticky;
+    bottom: 0;
+}
+
+.lista-enlaces, .redes-sociales{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    margin: .25rem 0;
+}
+
+.enlaces p {
+    display: none;
+}
