@@ -15,9 +15,9 @@ Se creará una *landing page* de un juego ficticio: **THE FRONTENDER**.
 
 Se realizarán 3 páginas:
 * Una página de cuenta atrás para el lanzamiento.
-<img src="/img/Comin.png" alt="Comming soon"/>
+![](html5/img/Comin.png)
 * Una landing page que presente el juego y permita a los jugadores inscribirse en la comunidad.
-<img src="/img/Page-1.png" alt="Ejemplo pagina 1"/>
-<img src="/img/Page-2.png" alt="Ejemplo pagina 2"/>
+![](html5/img/Page-1.png)
+![](html5/img/Page-2.png)
 * Una página 404 personalizada.
-<img src="/img/404.png" alt="Pagina 404 personalizada"/>
+![](html5/img/404.png)
