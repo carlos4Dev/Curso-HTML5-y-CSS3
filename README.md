@@ -15,9 +15,9 @@ Se creará una *landing page* de un juego ficticio: **THE FRONTENDER**.
 
 Se realizarán 3 páginas:
 * Una página de cuenta atrás para el lanzamiento.
-![Comin](img/Comin.png)
+![Comin](https://raw.githubusercontent.com/carlos4Dev/Curso-HTML5-y-CSS3/master/img/Comin.png)
 * Una landing page que presente el juego y permita a los jugadores inscribirse en la comunidad.
-![Page-1](img/Page-1.png)
-![Page-2](img/Page-2.png)
+![Page-1](https://raw.githubusercontent.com/carlos4Dev/Curso-HTML5-y-CSS3/master/img/Page-1.png)
+![Page-2](https://raw.githubusercontent.com/carlos4Dev/Curso-HTML5-y-CSS3/master/img/Page-2.png)
 * Una página 404 personalizada.
-![404](img/404.png)
+![404](https://raw.githubusercontent.com/carlos4Dev/Curso-HTML5-y-CSS3/master/img/404.png)
